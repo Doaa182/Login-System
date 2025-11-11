@@ -30,7 +30,7 @@ A simple, responsive client-side login and registration web app.
 
 ## 💻 GitHub Repo & Live Demo
 
-🔗 **GitHub Repo:** [Mini Login System]([https://lnkd.in/dFVkpZr9](https://github.com/Doaa182/Login-System)  
+🔗 **GitHub Repo:** [Mini Login System][https://lnkd.in/dFVkpZr9](https://github.com/Doaa182/Login-System]  
 🌐 **Live Demo:** [View on GitHub Pages](https://doaa182.github.io/Login-System/)
 
 ---
