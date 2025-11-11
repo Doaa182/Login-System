@@ -41,6 +41,6 @@ A simple, responsive client-side login and registration web app.
 🔗 [GitHub Profile](https://github.com/Doaa182)
 
 ---
-## 📸 Screenshots
-![Mini Login System Mockup](./Assets/screenshot.png)
+## 📸 Screenshot
+<img src="./assets/screenshot.png" alt="Mini Login System Mockup" width="928"> 
 
