@@ -26,7 +26,6 @@ body {
   -moz-border-radius: 0px 10px 10px 0px;
   -ms-border-radius: 0px 10px 10px 0px;
   -o-border-radius: 0px 10px 10px 0px;
-
   background-color: var(--very-soft-red);
 }
 
@@ -41,23 +40,19 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  bottom: -11px;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
   z-index: -1;
   transition: all 0.15s ease-in-out;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
-}
-
-.signin-left-part li:nth-child(1) i::after {
-  left: -15px;
-}
-.signin-left-part li:nth-child(2) i::after {
-  left: -11px;
-}
-.signin-left-part li:nth-child(3) i::after {
-  left: -13px;
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
 }
 
 .signin-left-part i {
@@ -85,9 +80,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.form-control {
+  color: var(--very-dark-grayish-blue);
+}
+
 .form-control:focus {
   border-color: var(--very-soft-red);
   box-shadow: 0 0 0 0.25rem rgba(228, 177, 176, 0.25);
+  color: var(--very-dark-grayish-blue);
 }
 
 .form-control:placeholder-shown {
