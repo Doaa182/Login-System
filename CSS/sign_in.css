@@ -105,8 +105,7 @@ body {
   text-decoration: underline;
 }
 
-.signin-btn {
-  background-color: var(--very-soft-red);
+.btn {
   font-size: 16px;
   padding-bottom: 11px;
   padding-top: 11px;
@@ -115,6 +114,10 @@ body {
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
+}
+
+.signin-btn {
+  background-color: var(--very-soft-red);
 }
 
 .signin-btn:hover {
@@ -135,14 +138,6 @@ body {
   background-color: transparent;
   border: 2px solid var(--white);
   color: var(--white);
-  font-size: 16px;
-  padding-bottom: 11px;
-  padding-top: 11px;
-  transition: all 0.15s ease-in-out;
-  -webkit-transition: all 0.15s ease-in-out;
-  -moz-transition: all 0.15s ease-in-out;
-  -ms-transition: all 0.15s ease-in-out;
-  -o-transition: all 0.15s ease-in-out;
 }
 
 .signup-btn:hover {
