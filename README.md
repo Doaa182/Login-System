@@ -42,5 +42,5 @@ A simple, responsive client-side login and registration web app.
 
 ---
 ## 📸 Screenshot
-<img src="./Assets/screenshot.png" alt="Mini Login System Mockup" width="928"> 
+<img src="./Assets/screenshot.png" alt="Mini Login System Mockup" width="600"> 
 
