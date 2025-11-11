@@ -6,13 +6,13 @@ A simple, responsive client-side login and registration web app.
 
 ## 💡 Key Features and JavaScript Logic:
 
-🔻 User registration and login with persistent data storage in `localStorage`
-🔻 Validation using Regex to check name format, email structure, and password quality before account creation
-🔻 Duplicate account prevention to avoid registering with an existing email
-🔻 Clear feedback messages to guide the user for errors and success states
-🔻 Personalized user experience with a custom welcome message after login
-🔻 Sign-out functionality that ends the active session
-🔻 Fully responsive UI for a clean and user-friendly layout across all devices
+🔻 User registration and login with persistent data storage in `localStorage`  
+🔻 Validation using Regex to check name format, email structure, and password quality before account creation  
+🔻 Duplicate account prevention to avoid registering with an existing email  
+🔻 Clear feedback messages to guide the user for errors and success states  
+🔻 Personalized user experience with a custom welcome message after login  
+🔻 Sign-out functionality that ends the active session  
+🔻 Fully responsive UI for a clean and user-friendly layout across all devices  
 
 ---
 
@@ -30,7 +30,7 @@ A simple, responsive client-side login and registration web app.
 
 ## 💻 GitHub Repo & Live Demo
 
-🔗 **GitHub Repo:** [Mini Login System](https://github.com/Doaa182/Login-System)
+🔗 **GitHub Repo:** [Mini Login System](https://github.com/Doaa182/Login-System)  
 🌐 **Live Demo:** [View on GitHub Pages](https://doaa182.github.io/Login-System/)
 
 ---
