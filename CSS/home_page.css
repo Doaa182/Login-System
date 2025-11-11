@@ -10,10 +10,11 @@ h1 {
   letter-spacing: 7px;
 }
 
-header a {
+header i {
   color: #45414f;
+  cursor: pointer;
 }
 
-header a:hover {
+header i:hover {
   color: #725760;
 }

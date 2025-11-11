@@ -50,7 +50,8 @@ function signIn() {
         "invalidSignInMsg"
       ).innerHTML = `<p class="text-success text-center mb-4">Successfully logged in.</p>`;
 
-      localStorage.setItem("storedUserName", allUsers[idx].name);
+      // localStorage.setItem("storedUserName", allUsers[idx].name);
+      localStorage.setItem("currentSessionUser", JSON.stringify(allUsers[idx]));
 
       window.open("./home_page.html", "_self");
     } else if (isFound == false && isPassCorrect == undefined) {
@@ -61,6 +62,10 @@ function signIn() {
       document.getElementById(
         "invalidSignInMsg"
       ).innerHTML = `<p class="text-danger text-center mb-4">Incorrect password. Please try again</p>`;
+    } else if (isFound == undefined && isPassCorrect == undefined) {
+      document.getElementById(
+        "invalidSignInMsg"
+      ).innerHTML = `<p class="text-danger text-center mb-4">No account found with this email. Please sign up first.</p>`;
     }
   } else if (signInEmailInput.value == "" && signInPassInput.value != "") {
     document.getElementById(
@@ -203,6 +208,11 @@ function signUp() {
   }
 }
 
+function signOut() {
+  localStorage.removeItem("currentSessionUser");
+  window.open("./index.html", "_self");
+}
+
 function validateUserName() {
   var userNameRegex = /^[a-zA-Z ]{2,}$/;
   return userNameRegex.test(signUpNameInput.value);
@@ -219,9 +229,17 @@ function validateUserPassword() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  var storedUserName = localStorage.getItem("storedUserName");
+  // var storedUserName = localStorage.getItem("storedUserName");
 
-  if (storedUserName != null && welcomeMsg != null) {
-    welcomeMsg.innerHTML = `<h1 class="fw-bolder text-uppercase text-white">Welcome ${storedUserName}</h1>`;
+  // if (storedUserName != null && welcomeMsg != null) {
+  //   welcomeMsg.innerHTML = `<h1 class="fw-bolder text-uppercase text-white">Welcome ${storedUserName}</h1>`;
+  // }
+
+  var currentSessionUser = JSON.parse(
+    localStorage.getItem("currentSessionUser")
+  );
+
+  if (currentSessionUser != null) {
+    welcomeMsg.innerHTML = `<h1 class="fw-bolder text-uppercase text-white">Welcome ${currentSessionUser.name}</h1>`;
   }
 });
