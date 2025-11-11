@@ -9,7 +9,9 @@
   }
 
   .signin-right-part,
-  .signin-left-part {
+  .signin-left-part,
+  .signup-right-part,
+  .signup-left-part {
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -29,7 +31,9 @@
   }
 
   .signin-right-part,
-  .signin-left-part {
+  .signin-left-part,
+  .signup-right-part,
+  .signup-left-part {
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -39,7 +43,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .signin-left-part {
+  .signin-left-part,
+  .signup-left-part {
     border-radius: 10px 0px 0px 10px;
     -webkit-border-radius: 10px 0px 0px 10px;
     -moz-border-radius: 10px 0px 0px 10px;
@@ -47,7 +52,8 @@
     -o-border-radius: 10px 0px 0px 10px;
   }
 
-  .signin-right-part {
+  .signin-right-part,
+  .signup-right-part {
     border-radius: 0px 10px 10px 0px;
     -webkit-border-radius: 0px 10px 10px 0px;
     -moz-border-radius: 0px 10px 10px 0px;
