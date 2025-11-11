@@ -1,0 +1,19 @@
+body {
+  background-image: url(../Assets/pink-mountain-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  letter-spacing: 7px;
+}
+
+header a {
+  color: #45414f;
+}
+
+header a:hover {
+  color: #725760;
+}
