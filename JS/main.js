@@ -240,6 +240,6 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   if (currentSessionUser != null) {
-    welcomeMsg.innerHTML = `<h1 class="fw-bolder text-uppercase text-white">Welcome ${currentSessionUser.name}</h1>`;
+    welcomeMsg.innerHTML = `<h1 class="fw-bolder text-uppercase text-white text-center">Welcome ${currentSessionUser.name}</h1>`;
   }
 });
